@@ -1,0 +1,136 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+#nav-right {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+@media (max-width:660px) {
+    nav {
+        padding-bottom: 0;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+}
+
+
+
+#highlight {
+    color: var(--Orange, #FF7D1A);
+    font-family: Kumbh Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+}
+
+#name {
+    color: var(--Very-dark-blue, #1D2025);
+    font-family: Kumbh Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 114.286% */
+}
+
+p {
+    color: var(--Grayish-blue, #68707D);
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    /* 178.571% */
+    letter-spacing: 0.56px;
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#price small {
+    margin-left: 2rem;
+    color: var(--Orange, #FF7D1A);
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    border-radius: 5px;
+    background: var(--Pale-orange, #FFEDE0);
+}
+
+#old-price {
+    color: var(--Very-dark-blue, #1D2025);
+    font-family: Kumbh Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.48px;
+    text-decoration: line-through;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+    column-gap: 2rem;
+
+}
+
+#addToCart {
+    border-radius: 10px;
+    background: var(--Orange, #FF7D1A);
+    box-shadow: 0px 8px 10px 0px #FFEDE0;
+    display: flex;
+    width: 226px;
+    height: 56px;
+    padding: 17px 77px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: var(--Neitral-Dark-grayish-blue);
+    column-gap: 2rem;
+}
